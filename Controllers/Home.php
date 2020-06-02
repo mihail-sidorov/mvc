@@ -37,9 +37,9 @@ class Home extends \App\Controller
         $order = Job::order([
             ['order_by' => 'name', 'order' => 'ASC', 'desc' => 'по имени и возрастанию'],
             ['order_by' => 'name', 'order' => 'DESC', 'desc' => 'по имени и убыванию'],
-            ['order_by' => 'email', 'order' => 'ASC', 'desc' => 'по emeil и возрастанию'],
-            ['order_by' => 'email', 'order' => 'DESC', 'desc' => 'по emsil и убыванию'],
-            ['order_by' => 'done', 'order' => 'ASC', 'desc' => 'сначала невыполненные'],
+            ['order_by' => 'email', 'order' => 'ASC', 'desc' => 'по email и возрастанию'],
+            ['order_by' => 'email', 'order' => 'DESC', 'desc' => 'по email и убыванию'],
+            ['order_by' => 'done', 'order' => 'ASC', 'desc' => 'сначала не выполненные'],
             ['order_by' => 'done', 'order' => 'DESC', 'desc' => 'сначала выполненные'],
         ]);
 

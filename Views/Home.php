@@ -62,6 +62,8 @@
         <?php } ?>
         <?php if ($job['done'] == 1) { ?>
           <div class="jobs__done">Выполнено</div>
+        <?php }else { ?>
+          <div class="jobs__done">Не выполнено</div>
         <?php } ?>
       </div>
       <hr>

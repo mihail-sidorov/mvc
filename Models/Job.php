@@ -181,7 +181,7 @@ class Job
 
         foreach ($this as $index => $value) {
             if (isset($value)) {
-                $this->$index = htmlspecialchars(addslashes($value));
+                $this->$index = htmlspecialchars($value);
             }
         }
 
